@@ -8,7 +8,9 @@ type Step = {
 };
 
 export default function KMPVisualizer() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [pattern, setPattern] = useState("abacab");
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [text, setText] = useState("abacababacab");
   const [piSteps, setPiSteps] = useState<Step[]>([]);
   const [kmpSteps, setKmpSteps] = useState<Step[]>([]);
